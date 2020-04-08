@@ -1,0 +1,10 @@
+entrypoints.json
+images/phoenix.png
+webpack.config.js
+yarn.lock
+package.json
+javascripts/application.js
+javascripts/initializers/turbolinks.js
+javascripts/initializers/ujs.js
+stylesheets/application.scss
+stylesheets/application.js
