@@ -29,3 +29,4 @@ inside initializers_folder do
 end
 
 append_to_file 'env.sample', 'WEB_ASSETS_DIR=web-assets' if File.exist?('env.sample')
+append_to_file 'Procfile', 'assets: bin/assets' if File.exist?('env.sample')
