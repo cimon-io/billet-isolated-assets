@@ -27,3 +27,5 @@ end
 inside initializers_folder do
   get "#{repo_root}/action_view_assets_url_helper.rb", 'action_view_assets_url_helper.rb'
 end
+
+append_to_file 'env.sample', 'WEB_ASSETS_DIR=web-assets' if File.exist?('env.sample')
