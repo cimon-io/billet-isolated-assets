@@ -20,6 +20,9 @@ inside assets_root_folder do
   end
 end
 
+inside bin_folder do
+  get "#{repo_root}/bin_assets.sh", 'assets'
+end
 
 inside initializers_folder do
   get "#{repo_root}/action_view_assets_url_helper.rb", 'action_view_assets_url_helper.rb'
