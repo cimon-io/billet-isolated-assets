@@ -26,7 +26,7 @@
     "css-minimizer-webpack-plugin": "3.1.1",
     "es6-promise": "4.2.8",
     "mini-css-extract-plugin": "2.4.3",
-    "node-sass": "6.0.1",
+    "node-sass": "7.0.0",
     "sass-loader": "12.2.0",
     "terser-webpack-plugin": "5.2.4",
     "turbolinks": "5.2.0",
